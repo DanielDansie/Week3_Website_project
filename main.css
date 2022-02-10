@@ -1,4 +1,4 @@
-html, head, link, div, h1, body, p {
+html, head, link, div, h1, body, p, h2, h3, a, img{
     margin: 0;
     padding: 0;
     border: 0;
@@ -8,4 +8,108 @@ html, head, link, div, h1, body, p {
 
 body {
     font-family: 'Lato', sans-serif;
+    background-color: #000;
+}
+
+.background_image {
+    background-image: url(./Image_folder/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    background-repeat: no-repeat;
+    height: 1200px;
+    width: 100%;
+}
+
+.header {
+    width: 90%;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+    align-items: flex-end;
+}
+
+.header h3 {
+    font-size: 24px;
+    padding: 30px 30px 0 30px;
+}
+
+#nav {
+    font-size: 20px;
+}
+
+#nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 0 15px; 
+}
+
+.moto {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 100px auto;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+    font-style: bold;
+    border-bottom: 1px solid #fff;
+    width: inherit;
+    padding-bottom: 30px;
+    margin: 100px;
+}
+
+#moto {
+    color: #fff;
+    font-size: 40px;
+    margin: 75px auto;
+    padding: 0 20px;
+}
+
+img {
+    max-width: 30%;
+    height: 450px;
+}
+
+.hands {
+    background-color: black;
+    height: 450px;
+}
+
+#hands img{
+    float: left;
+}
+
+.pineapple {
+    background-color: #333;
+    height: 450px;
+    
+}
+
+#pineapple img{
+    float: right;
+}
+
+.pasta {
+    background-color: black;
+    height: 450px;
+}
+
+#pasts img{
+    float: left;
+}
+
+#wording {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding: 50px;
+}
+
+#wording h2{
+    font-size: 50px;
 }
